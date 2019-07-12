@@ -36,7 +36,9 @@ def hit? (num)
   elsif answer == 's'
   else
     invalid_command
+    prompt_user
   end
+  return num
 end
 
 def invalid_command

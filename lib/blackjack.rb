@@ -34,6 +34,7 @@ def hit? (num)
   if answer == 'h'
     num += deal_card
   elsif answer == 's'
+    prompt_user
   else
     invalid_command
     prompt_user
@@ -50,6 +51,10 @@ end
 #####################################################
 
 def runner
-  # code runner here
+  total = 0
+  welcome
+  total = initial_round
+  while total do
+    if total < 21
 end
     

@@ -58,5 +58,6 @@ def runner
     total = hit?(total)
   end
 end_game(total)
+puts "Your cards add up to #{total}"
 end
     
